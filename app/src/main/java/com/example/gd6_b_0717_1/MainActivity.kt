@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
             .setContentText(binding?.etMessage?.text.toString())
             .setPriority(NotificationCompat.PRIORITY_LOW)
 
-        with(NotificationManagerCompat.fro  m(this)){
+        with(NotificationManagerCompat.from(this)){
             notify(notificationid2, builder.build())
         }
     }
